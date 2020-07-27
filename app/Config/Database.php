@@ -31,7 +31,7 @@ class Database extends \CodeIgniter\Database\Config
 	 */
 	public $default = [
 		'DSN'      => '',
-		'hostname' => 'http://100.24.72.217/',
+		'hostname' => 'localhost',
 		'username' => 'root',
 		'password' => 'web2020@vc2',
 		'database' => 'smile_db',
