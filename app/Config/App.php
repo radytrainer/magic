@@ -21,7 +21,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://100.26.252.33/';
+	public $baseURL = 'http://100.26.252.33/magic/public/';
 
 	/*
 	|--------------------------------------------------------------------------

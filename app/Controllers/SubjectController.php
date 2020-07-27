@@ -26,13 +26,13 @@ class SubjectController extends BaseController
             'subname' => $subject
         );
         $this->subject->insert($data);
-        return redirect()->to("/subject");
+        return redirect()->to(base_url('/subject'));
     }
 
     public function deleteSubject($id) 
     {
         $this->subject->delete($id);
-        return redirect()->to('/subject');
+        return redirect()->to(base_url('/subject'));
     }
 
     public function updateSubject()
@@ -43,7 +43,7 @@ class SubjectController extends BaseController
             'subname' => $subject
         );
         $this->subject->update($subId, $data);
-        return redirect()->to('/subject');
+        return redirect()->to(base_url('/subject'));
     }
 	//--------------------------------------------------------------------
 

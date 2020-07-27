@@ -44,13 +44,13 @@ class UserController extends BaseController
         } else { 
             // message error here with session 
         }
-        return redirect()->to("/");
+        return redirect()->to(base_url('/'));
     }
 
     public function deleteUser($id) 
     {
         $this->user->delete($id);
-        return redirect()->to("/");
+        return redirect()->to(base_url('/'));
     }
 
     public function updateUser() 
@@ -71,7 +71,7 @@ class UserController extends BaseController
         } else { 
             // message error here with session 
         }
-        return redirect()->to("/");
+        return redirect()->to(base_url('/'));
     }
 	//--------------------------------------------------------------------
 

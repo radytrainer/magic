@@ -26,13 +26,13 @@ class ProvinceController extends BaseController
             'proname' => $province
         );
         $this->province->insert($data);
-        return redirect()->to("/province");
+        return redirect()->to(base_url('/province'));
     }
 
     public function deleteProvince($id) 
     {
         $this->province->delete($id);
-        return redirect()->to('/province');
+        return redirect()->to(base_url('/province'));
     }
 
     public function updateProvince()
@@ -43,7 +43,7 @@ class ProvinceController extends BaseController
             'proname' => $province
         );
         $this->province->update($provinceId, $data);
-        return redirect()->to('/province');
+        return redirect()->to(base_url('/province'));
     }
 	//--------------------------------------------------------------------
 
