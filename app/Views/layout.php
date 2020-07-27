@@ -14,13 +14,13 @@
 <div class="container mt-5">
 <ul class="nav nav-tabs">
   <li class="nav-item">
-    <a class="nav-link" href="/">Users</a>
+    <a class="nav-link" href="<?= base_url('/') ?>">Users</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/province">Provinces</a>
+    <a class="nav-link" href="<?= base_url('/province') ?>">Provinces</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="/subject">Subjects</a>
+    <a class="nav-link" href="<?= base_url('/subject') ?>">Subjects</a>
   </li>
 </ul>
 
